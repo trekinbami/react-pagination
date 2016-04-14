@@ -12,6 +12,16 @@ class PaginationCnt extends Component {
 			links.push(<li key={i}><Link to={'/page/'+i} activeClassName="is-active">{i}</Link></li>);
 		}
 
+		let pageId = parseInt(this.props.pageId);
+
+		if( pageId > 1 ){
+			links.unshift(<li key="prev01" className="prev-btn"><Link to={'/page/'+(pageId-1)} activeClassName="is-active">&#9668;</Link></li>);
+		}	
+
+		if( pageId < Math.ceil(this.props.scores.length/3)){
+			links.push(<li key="next01" className="next-btn"><Link to={'/page/'+(pageId+1)} activeClassName="is-active">&#9658;</Link></li>)	
+		}
+
 		return (
 			<div className="pagination">
 				<ul>

@@ -56,7 +56,7 @@ class App extends Component {
 			<div className="container">
 				<TitleBlock title="Scores" />
 				<ScoreApp scores={this.state.filteredScores} />
-				<PaginationCnt scores={this.state.totalScores} />
+				<PaginationCnt scores={this.state.totalScores} pageId={this.props.params.pageId} />
 			</div>
 		)
 	}
@@ -65,7 +65,5 @@ class App extends Component {
 ReactDOM.render((
 	<Router history={browserHistory}>
 		<Redirect from="/" to="/page/1" />
-		<Route path="/" component={App}>
-			<Route path="/page/:pageId" component={App} />
-		</Route>
+		<Route path="/page/:pageId" component={App}></Route>
 	</Router>), document.getElementById('root'));

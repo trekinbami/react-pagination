@@ -30,7 +30,31 @@
 
 .scores span{flex:1;}
 .scores li:nth-child(odd){background:#f5f5f5;}
-.pagination{text-align: center; padding-top:25px; margin-top:25px; border-top:1px solid #eee;}
+.pagination{
+	text-align: center; 
+	padding-top:25px; 
+	margin-top:25px; 
+	border-top:1px solid #eee;
+		
+		ul{
+			padding-left:45px;
+			padding-right:45px;
+			position: relative;
+			display: inline-block;
+		}
+
+		.prev-btn{
+			position: absolute;
+			left:0;
+			top:0;
+		}
+
+		.next-btn{
+			position: absolute;
+			right:0;
+			top:0;
+		}
+}
 .pagination li{
 	display: inline-block;
 	height:40px;

@@ -393,6 +393,19 @@ body {
   padding-top: 25px;
   margin-top: 25px;
   border-top: 1px solid #eee; }
+  .pagination ul {
+    padding-left: 45px;
+    padding-right: 45px;
+    position: relative;
+    display: inline-block; }
+  .pagination .prev-btn {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .pagination .next-btn {
+    position: absolute;
+    right: 0;
+    top: 0; }
 
 .pagination li {
   display: inline-block;
