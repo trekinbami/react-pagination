@@ -1,0 +1,51 @@
+/* Helpers */
+@import './helpers/_functions'; 
+@import './helpers/_variables';
+@import './helpers/_mixins'; 
+@import './helpers/_helpers';
+
+/* Base */
+@import './base/_normalize.scss';
+@import './base/_typography.scss';
+
+/* Layout */
+@import './layout/_grid';
+@import './layout/_header';
+@import './layout/_footer';
+@import './layout/_forms';
+
+/* Components */
+@import './components/_buttons';
+@import './components/_navigation';
+
+.scores{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.scores li{
+	padding:10px;
+	display: flex;
+}
+
+.scores span{flex:1;}
+.scores li:nth-child(odd){background:#f5f5f5;}
+.pagination{text-align: center; padding-top:25px; margin-top:25px; border-top:1px solid #eee;}
+.pagination li{
+	display: inline-block;
+	height:40px;
+	width:40px;
+	border:1px solid #DDD;
+	line-height: 40px;
+	margin-left:5px;
+
+	a{
+		display: block; 
+		text-decoration: none; 
+		color:black;
+
+			&.is-active{
+				background:#DDD;
+			}
+	}
+}

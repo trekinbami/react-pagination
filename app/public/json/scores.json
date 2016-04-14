@@ -1,0 +1,68 @@
+[
+	{
+		"homePlayer": "Sam Pakvis",
+		"awayPlayer": "Sem Scholte",
+		"homeScore": "3",
+		"awayScore": "1"
+	},
+	{
+		"homePlayer": "Lennard Toma",
+		"awayPlayer": "Sem Scholte",
+		"homeScore": "2",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Sam Pakvis",
+		"awayPlayer": "Cedric Muchall",
+		"homeScore": "0",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Lennard Toma",
+		"awayPlayer": "Cedric Muchall",
+		"homeScore": "3",
+		"awayScore": "2"
+	},
+	{
+		"homePlayer": "Robin Gordijn",
+		"awayPlayer": "Kevin Boer",
+		"homeScore": "3",
+		"awayScore": "1"
+	},
+	{
+		"homePlayer": "Patrick Steenks",
+		"awayPlayer": "Sam van der Meide",
+		"homeScore": "3",
+		"awayScore": "0"
+	},
+	{
+		"homePlayer": "Sam Pakvis",
+		"awayPlayer": "Cedric Muchall",
+		"homeScore": "1",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Cedric Muchall",
+		"awayPlayer": "Kevin Boer",
+		"homeScore": "2",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Jeroen Kwekel",
+		"awayPlayer": "Vanity Zwemmes",
+		"homeScore": "1",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Elita Vijverberg",
+		"awayPlayer": "David Jon",
+		"homeScore": "0",
+		"awayScore": "3"
+	},
+	{
+		"homePlayer": "Wiebe Kuipers",
+		"awayPlayer": "Gerard Joling",
+		"homeScore": "3",
+		"awayScore": "2"
+	}
+]
