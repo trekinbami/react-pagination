@@ -55,8 +55,8 @@ class App extends Component {
 		return(
 			<div className="container">
 				<TitleBlock title="Scores" />
-				<ScoreApp scores={this.state.filteredScores} pageId={this.props.params.pageId} />
-				<PaginationCnt scores={this.state.totalScores} filterScores={this.filterScores.bind(this)} pageId={this.props.params.pageId} />
+				<ScoreApp scores={this.state.filteredScores} />
+				<PaginationCnt scores={this.state.totalScores} />
 			</div>
 		)
 	}
