@@ -5,11 +5,6 @@ import { Link } from 'react-router';
 
 //class
 class PaginationCnt extends Component {
-	constructor(){
-		super(...arguments);
-	}
-
-	//totaal aantal dingetjes berekenen. actieve zetten.
 	render(){
 		var links = [];
 
